@@ -1,0 +1,71 @@
+.text-section {
+    background-color: rgba(238, 238, 238, 1);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    /* use viewport-relative units to cover page fully */
+    height: 130vh;
+    width: 100vw;
+    h1 {
+        padding-top: 5vh;
+        font-family: Oswald;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 64px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: rgba(70, 69, 71, 1);
+        padding-bottom: 25px;
+        text-align: center;
+    }
+    h6 {
+        font-family: Source Sans Pro;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 0em;
+        color: #666666;
+        padding: 0px 20px;
+        padding-bottom: 20px;
+    }
+    p {
+        font-family: Source Sans Pro;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 0em;
+        color: #666666;
+        padding: 0px 20px;
+        padding-bottom: 20px;
+    }
+}
+
+.button {
+    text-align: center;
+    button {
+        left: 50%;
+        height: 36px;
+        width: 115px;
+        top: 0px;
+        border-width: 0;
+        background: #55c2d8;
+        border-radius: 18px;
+        span {
+            text-align: center;
+            left: 15.65%;
+            right: 14.78%;
+            top: 13.89%;
+            bottom: 16.67%;
+            font-family: "Oswald";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 26px;
+            /* or 186% */
+            text-align: center;
+            letter-spacing: 0.1em;
+            color: #ffffff;
+        }
+    }
+}

@@ -1,14 +1,21 @@
-@import "menu";
-@import "text-section";
-@import "video.section";
-@import "footer";
-@import "header.mobile";
-@import "menu.mobile";
-@import "text-section.mobile";
-@import "video.section.mobile";
-@import "footer.mobile";
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Oswald&display=swap");
-* {
-    margin: 0px;
+@media screen and (min-width: 600px) {
+    @import "menu";
+    @import "text-section";
+    @import "video.section";
+    @import "footer";
+    * {
+        margin: 0px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    @import "menu.mobile";
+    @import "text-section.mobile";
+    @import "video.section.mobile";
+    @import "footer.mobile";
+    @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap");
+    @import url("https://fonts.googleapis.com/css?family=Oswald&display=swap");
+    * {
+        margin: 0px;
+    }
 }

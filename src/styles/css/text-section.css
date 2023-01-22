@@ -19,7 +19,7 @@
     text-align: center;
     color: #464547;
     padding-bottom: 25px; }
-  .text-section p {
+  .text-section h6 {
     font-family: Source Sans Pro;
     font-size: 24px;
     font-weight: 400;
@@ -39,7 +39,8 @@
       font-family: Source Sans Pro;
       font-weight: 400;
       letter-spacing: 0em;
-      text-align: left; }
+      text-align: left;
+      color: #666666; }
     .text-section .grid .p2 {
       padding-top: 15px;
       padding-left: 35px;
@@ -48,7 +49,8 @@
       font-size: 16px;
       font-weight: 400;
       letter-spacing: 0em;
-      text-align: left; }
+      text-align: left;
+      color: #666666; }
   .text-section button {
     height: 36px;
     width: 115px;

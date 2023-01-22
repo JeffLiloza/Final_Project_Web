@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="./assets/icons/logo.svg" />
     <link rel="stylesheet" href="./styles/css/styles.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
     <title>Final Project</title>
 </head>
 
@@ -44,9 +47,9 @@
             <h1>
                 This is the Section Headline,<br /> Continues to Two Lines
             </h1>
-            <p>
+            <h6>
                 Lorem ipsum dolor sit amet, consectetur<br /> adipiscing elit sed do eiusmod.
-            </p>
+            </h6>
             <div class="grid">
                 <p class="p1">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
@@ -58,7 +61,9 @@
                     in culpa qui officia deserunt mollit anim id est laborum.
                 </p>
             </div>
-            <button class="middlePage_button"><span>READ MORE</span></button>
+            <div class="button">
+                <button><span>READ MORE</span></button>
+            </div>
         </section>
         <!-- last page img -->
         <section class="video" id="video">
@@ -100,5 +105,26 @@
         </div>
       </div>
     </footer>
+    <script>
+      (function ($) {
+        $(function () {
+          $("nav ul li > a:not(:only-child)").click(function (e) {
+            $(this).siblings(".nav-dropdown").slideToggle();
+            $(".nav-dropdown").not($(this).siblings()).hide();
+            e.stopPropagation();
+          });
+          $("html").click(function () {
+            $(".nav-dropdown").hide();
+          });
+          // Toggle open and close nav styles on click
+          $("#nav-toggle").click(function () {
+            $("nav ul").slideToggle();
+          });
+          $("#nav-toggle").on("click", function () {
+            this.classList.toggle("active");
+          });
+        });
+      })(jQuery);
+    </script>
   </body>
 </html>
