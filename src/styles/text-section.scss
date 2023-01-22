@@ -1,0 +1,85 @@
+.text-section {
+    background-color: rgba(238, 238, 238, 1);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    /* use viewport-relative units to cover page fully */
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    text-align: center;
+    h1 {
+        padding-top: 10vh;
+        font-family: Oswald;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 64px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: rgba(70, 69, 71, 1);
+        padding-bottom: 25px;
+    }
+    p {
+        font-family: Source Sans Pro;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #666666;
+    }
+    .grid {
+        padding-top: 40px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        .p1 {
+            padding-top: 15px;
+            padding-left: 150px;
+            padding-right: 35px;
+            font-size: 16px;
+            font-family: Source Sans Pro;
+            font-weight: 400;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+        .p2 {
+            padding-top: 15px;
+            padding-left: 35px;
+            padding-right: 150px;
+            font-family: Source Sans Pro;
+            font-size: 16px;
+            font-weight: 400;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+    }
+    button {
+        height: 36px;
+        width: 115px;
+        left: 0px;
+        top: 0px;
+        border-width: 0;
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+        background: #55c2d8;
+        border-radius: 18px;
+        span {
+            left: 15.65%;
+            right: 14.78%;
+            top: 13.89%;
+            bottom: 16.67%;
+            font-family: "Oswald";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 26px;
+            /* or 186% */
+            text-align: center;
+            letter-spacing: 0.1em;
+            color: #ffffff;
+        }
+    }
+}

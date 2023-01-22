@@ -1,4 +1,3 @@
-@import "header";
 @import "menu";
 @import "text-section";
 @import "video.section";
@@ -8,6 +7,8 @@
 @import "text-section.mobile";
 @import "video.section.mobile";
 @import "footer.mobile";
-@import "./kit/_variables";
-@import "./kit/_mixins";
-@import "./kit/_functions";
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Oswald&display=swap");
+* {
+    margin: 0px;
+}
